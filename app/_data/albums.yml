@@ -106,7 +106,7 @@
 
   tracks:
     - title: Breathing
-      duration: 3:34
+      duration: '3:34'
       number: '01'
       spotity: http://open.spotify.com/track/2KCryMWdSiHK5TNABpHxlx
       itunes: https://itunes.apple.com/dk/album/breathing-single/id885022154
@@ -126,13 +126,13 @@
 
   tracks:
     - title: Tainted Ways
-      duration: 05:47
+      duration: '05:47'
       spotity: xx
       itunes: xxx
       number: '01'
 
     - title: Tainted Ways (radio edit)
-      duration: 03:52
+      duration: '03:52'
       spotity: xx
       itunes: xxx
       number: '02'
