@@ -431,8 +431,8 @@ module.exports = function (grunt) {
     'cssmin',
     'autoprefixer:dist',
     'uglify',
-    'imagemin',
-    'svgmin',
+    // 'imagemin',
+    // 'svgmin',
     'filerev',
     'usemin',
     'htmlmin'
