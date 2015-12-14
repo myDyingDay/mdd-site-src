@@ -1,13 +1,8 @@
-# In 2013 you missed us performing at
-# Rock Island,
-# Sin City,
-# PH Cafeen,
-# Lygten Station &amp; other fine venues.
-
 # FORMAT:
 # ----------------------------------
 # - title: title
-#   date: YYYY-MM-DD
+#   subtitle: optional subtitle
+#   date: YYYY-MM-DD 00:00
 #   venue: Venue
 #   address: Address
 #   zip: Zip
@@ -20,15 +15,42 @@
 #
 
 
-- title: my dyingDay + Superdirt
-  date: 2014-06-06
+- title: my dyingDay
+  subtitle: + Superdirt
+  date: 2014-06-06 00:00
   venue: Dæmonens Port
   city: Copenhagen
   country: DK
-  facebook:
+  facebook: https://www.facebook.com/events/301675826656673/
 
 - title: Album Release Party
-  date: tba
+  date: 2015-03-13 00:00
   venue: High Voltage
   city: Copenhagen
   country: DK
+  facebook: https://www.facebook.com/events/382805985226662/
+
+- title: my dyingDay
+  subtitle:
+  date: 2014-10-23 00:00
+  venue: Råhuset
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/382805985226662/
+
+
+- title: Listening session
+  subtitle:
+  date: 2015-02-23 00:00
+  venue: Zeppelin
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/605540359546083/
+
+- title: my dyingDay
+  subtitle: + Snakebite & Superdirt
+  date: 2013-04-27 00:00
+  venue: Lygten Station
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/319285261515537/
