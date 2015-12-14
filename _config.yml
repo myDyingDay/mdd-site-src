@@ -4,6 +4,7 @@
 # 3. config.yml
 
 name: my dyingDay
+email: mydyingdayrocks@gmail.com
 description:
 author:
   name: Jeppe Bårris
@@ -14,7 +15,7 @@ exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 # include: ['.htaccess']
-include: ['.nojekyll']
+include: ['.nojekyll', 'CNAME']
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
@@ -60,4 +61,7 @@ collections:
 
   dates:
     output:false
+
+
+googlecode: UA-34020624-1
 
