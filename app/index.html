@@ -2,16 +2,25 @@
 layout: default
 title: my dyingDay - rock n roll from Copenhagen
 ---
+{% assign dt_today = (site.time | date: '%Y-%m-%d') %}
 {% assign albums = (site.data.albums | where: 'published','y') %}
 {% assign covers = (albums | where: 'featured', 'y' | sort: 'feature_sort') %}
 {% assign videos = (site.data.videos) %}
+{% assign dates = (site.data.dates | sort: 'date' | reverse) %}
+{% assign upcoming_dates = (site.data.dates | where: 'date', >dt_today | sort: 'date' | reverse) %}
+{% assign members = (site.data.members) %}
+{% assign recent_dates = (dates) %}
+{% assign milestones = (site.data.timeline) %}
+
 
 <span id="home"></span>
+
+
+<!-- TOP NAVIGATION / LOGO -->
 <div class="navbar-wrapper " id="header">
     <div
         class="
             navbar
-            xxxnavbar-default
             navbar-inverse"
         role="navigation"
         style="margin-bottom:0;"
@@ -68,27 +77,26 @@ title: my dyingDay - rock n roll from Copenhagen
     </div>
 </div>
 
+
+<!-- COVERFLOW -->
 <div class="coverwrap">
 
-    <!--
+    <!-- WELCOME -->
     <div id="headercontent">
         <div class="container xpanel" style="text-align:center; ">
             <h1>
                 <span class="hidden-xs">
-                    Hello World!
+                    Hello World! We are my dyingDay!
                 </span>
                 <span class="hidden-md hidden-lg hidden-sm">
-                    Hi!
+                    Hi! We are my dyingDay!
                 </span>
-
-                We are my dyingDay!
             </h1>
             <h2 class="intro">
                 - a 99.9% D.I.Y. rock band from Copenhagen, Denmark.
             </h2>
         </div>
     </div>
-     -->
 
     <!-- COVER FLOW -->
     {% if covers.size == 0 %}
@@ -102,7 +110,6 @@ title: my dyingDay - rock n roll from Copenhagen
             {% endfor %}
         </div>
     </div>
-
 </div>
 
 
@@ -125,10 +132,7 @@ title: my dyingDay - rock n roll from Copenhagen
 
 
 <!-- ALBUMS -->
-{% if albums.size == 0 %}
-    No albums
-{% endif %}
-
+{% if albums.size > 0 %}
 <div id="music" class="xpanel">
     <div class="container">
         <h2 class="headline border-bot">
@@ -264,9 +268,11 @@ title: my dyingDay - rock n roll from Copenhagen
 
     </div>
 </div>
+{% endif %}
 
 
 <!-- VIDEOS -->
+{% if videos.size > 0 %}
 <div id="media" class="xpanel">
     <div class="container">
         <h2 class="headline">
@@ -306,20 +312,29 @@ title: my dyingDay - rock n roll from Copenhagen
     </div>
     <div id="videoplayer"></div>
 </div>
+{% endif %}
 
 
 <!-- LIVE -->
+{% if dates.size > 0 %}
 <div id="live" class="xpanel">
     <div class="container">
         <h2 class="headline no-border">
             <span class="glyphicon glyphicon-road"></span>
             LIVE <small>- schedule for my dyingDay</small>
         </h2>
+        <!--
         <p class="liveintro">
             <span class="glyphicon glyphicon-info-sign"></span>
             We are currently working on new material!
         </p>
-        <h4>2014</h4>
+        -->
+
+
+
+        <!-- <h4>2014</h4> -->
+        {% if upcoming_dates.size > 0 %}
+
         <table class="table table-hover liveschedule">
             <thead>
                 <tr>
@@ -331,6 +346,21 @@ title: my dyingDay - rock n roll from Copenhagen
                 </tr>
             </thead>
             <tbody>
+                {% for show in upcoming_dates %}
+                <tr>
+                    <td>{{ show.date | date_to_string }}</td>
+                    <td><strong>{{ show.title }}</strong> {{ show.subtitle }}</td>
+                    <td>{{ show.venue }}</td>
+                    <td><small class="text-muted">{{ show.city }} ({{ show.country }})</small></td>
+                    <td>
+                        {% if show.facebook %}
+                            <a href="{{ show.facebook }}" target="_blank">
+                                Facebook Event
+                            </a>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
                 <tr>
                     <td>June 06</td>
                     <td><strong>my dyingDay</strong> + Superdirt</td>
@@ -351,11 +381,35 @@ title: my dyingDay - rock n roll from Copenhagen
             </tbody>
         </table>
         <p class="livepast">
-            In 2013 you missed us performing at Rock Island, Sin City, PH Cafeen, Lygten Station &amp; other fine venues.
+            We also recently appeared at
+            {% for venue in recent_dates limit:3 %}
+            {{ venue.venue }},
+            {% endfor %}
+
+            &amp; other fine venues.
+
         </p>
+        {% else %}
+
+        <p class="liveintro">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            No confirmed shows at the moment.
+        </p>
+
+        <p class="livepast">
+            We recently appeared at
+            {% for venue in recent_dates limit:3 %}
+            {{ venue.venue }},
+            {% endfor %}
+
+            &amp; other fine venues.
+
+        </p>
+
+        {% endif %}
     </div>
 </div>
-
+{% endif %}
 
 <!-- THE BAND -->
 <div id="band" class="xpanel">
@@ -369,30 +423,14 @@ title: my dyingDay - rock n roll from Copenhagen
     <div style="background-color:rgba(255, 255, 255, 0.1); margin-top:10px;padding-bottom:20px;margin-bottom:20px;">
         <div class="container">
             <ul class="lineup">
+                {% for member in members %}
                 <li>
-                    <img src="/img/members/anders231.jpg" class="img-circle" />
-                    <h3 class="membername bigtype">Anders</h3>
-                    <span class="memberrole">Vocal &amp; Guitar</span>
+                    <img src="{{ member.image }}" class="img-circle" />
+                    <h3 class="membername bigtype">{{ member.name }}</h3>
+                    <span class="memberrole">{{ member.instrument }}</span>
                     <div class="clearfix"></div>
                 </li>
-                <li>
-                    <img src="/img/members/kim231.jpg" class="img-circle" />
-                    <h3 class="membername bigtype">Kim</h3>
-                    <span class="memberrole">Vocal &amp; Guitar</span>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <img src="/img/members/thomas231.jpg" class="img-circle" />
-                    <h3 class="membername bigtype">Thomas</h3>
-                    <span class="memberrole">Bass &amp; Stiches</span>
-                    <div class="clearfix"></div>
-                </li>
-                <li>
-                    <img src="/img/members/jeppe231.jpg" class="img-circle" />
-                    <h3 class="membername bigtype">Jeppe</h3>
-                    <span class="memberrole">Drums &amp; Cans</span>
-                    <div class="clearfix"></div>
-                </li>
+                {% endfor %}
             </ul>
             <div class="clearfix"></div>
         </div>
@@ -400,29 +438,46 @@ title: my dyingDay - rock n roll from Copenhagen
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h3 class="bigtype">We are: my dyingDay!</h3>
-                <p>We blend old-school heavy rock with electronica using wooden guitars, accoustic drums, home-build pedal-boards and new technology.</p>
+                <h3 class="bigtype">
+                    We are: my dyingDay!
+                </h3>
+                <p>
+                    We blend old-school heavy rock with electronica using wooden guitars, accoustic drums, home-build pedal-boards and new technology.
+                </p>
+
                 <br>
-                <h4 class="bigtype">Where?</h4>
-                <p>We are located in Copenhagen, Denmark.</p>
+                <h4 class="bigtype">
+                    Where?
+                </h4>
+                <p>
+                    We are located in Copenhagen, Denmark.
+                </p>
                 <br>
-                <h4 class="bigtype">Influences:</h4>
-                <p>We are influenced by Black Sabbath, Nine Inch Nails, Foo Fighters, Ministry, Mustasch &amp; other fine artists.</p>
+                <h4 class="bigtype">
+                    Influences:
+                </h4>
+                <p>
+                    We are influenced by Black Sabbath, Nine Inch Nails, Foo Fighters, Ministry, Mustasch &amp; other fine artists.
+                </p>
                 <br>
-                <h4 class="bigtype">We sound like ...</h4>
-                <p>... Well, go listen to our music ;)</p>
+
+                <h4 class="bigtype">
+                    We sound like ...
+                </h4>
+                <p>
+                    ... Well, go listen to our music ;)
+                </p>
             </div>
             <br>
             <div class="col-sm-4">
                 <h3>Mile Stones</h3>
                 <ul class="milestonelist">
-                    <li><small class="bigtype">2006:</small> my dyingDay was formed</li>
-                    <li><small class="bigtype">2007:</small> Promo CD "Fragile Alliance" released</li>
-                    <li><small class="bigtype">2009:</small> "Fragile Alliance" is featured in the 26th and final episode of Swedish detective series, "Beck - Burried Alive"</li>
-                    <li><small class="bigtype">2012:</small> Wrote, recorded and released 1 song each month througout the year.</li>
-                    <li><small class="bigtype">2013:</small> Voted best newcomer in the "Indie Spotlight" - An american radio-show</li>
-                    <li><small class="bigtype">2013:</small> First single out in 180 countries, available on iTunes, Spotify and more.</li>
-                    <li></li>
+                    {% for milestone in milestones %}
+                    <li>
+                        <small class="bigtype">{{ milestone.year }}: </small>
+                        {{ milestone.title }}
+                    </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -466,12 +521,12 @@ title: my dyingDay - rock n roll from Copenhagen
         <br>
         <h3>Radio Stations, Press &amp; Media - get your free samples!</h3>
         <p>
-            We are happy to provide you with free samples for air-play on your radio-show, or for review in your awesome magazine! Just send us an e-mail with your name, your station / magazine name and other info, and we'll get back to you in snap! You can reach us at <a href="mailto:mydyingdayrocks@gmail.com">mydyingdayrocks@gmail.com</a>.
+            We are happy to provide you with free samples for air-play on your radio-show, or for review in your awesome magazine! Just send us an e-mail with your name, your station / magazine name and other info, and we'll get back to you in snap! You can reach us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
             <br>
             <br>
         </p>
         <h3>Booking &amp; Management</h3>
-        <p>If you wish to hire us for a show, a festival or a TV-performance, please send us an e-mail and we'll get back to you in a snap. You can reach us at <a href="mailto:mydyingdayrocks@gmail.com">mydyingdayrocks@gmail.com</a>.
+        <p>If you wish to hire us for a show, a festival or a TV-performance, please send us an e-mail and we'll get back to you in a snap. You can reach us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
         </p>
     </div>
 </div>
@@ -483,7 +538,7 @@ title: my dyingDay - rock n roll from Copenhagen
     <div class="container">
         <p class="pull-right"><a href="#home">Top</a></p>
         <p>
-            &copy; 2015 my dyingDay &middot; Coded on crack in Copenhagen, Denmark
+            &copy; {{ site.time | date: '%Y' }} my dyingDay &middot; Coded on crack in Copenhagen, Denmark
         </p>
     </div>
     <br>
