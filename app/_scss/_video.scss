@@ -1,0 +1,53 @@
+#videoplayer {
+    margin-top: 15px;
+}
+
+#videoplayer {
+    margin-bottom: 15px;
+}
+
+
+div.videoembed {
+    width: 100%;
+    /* xxxbackground-color:#000;
+    background-color:rgba(0, 0, 0, 0.5); */
+}
+
+div.videowrapper {
+    width: 960px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left
+}
+
+div.videocontainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0
+}
+
+div.videocontainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+iframe.videoembed {}
+
+
+@media(max-width:767px) {
+    div.videowrapper {
+        width: 100%
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    div.videowrapper {
+        width: 100%;
+    }
+}
+
