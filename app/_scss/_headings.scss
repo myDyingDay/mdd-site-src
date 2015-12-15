@@ -1,0 +1,68 @@
+h1,
+h2,
+h3 {
+    /* font-family: 'New Rocker', cursive; font-family: 'Rock Salt'; font-family: 'Unkempt', cursive; */
+    font-family: 'Unkempt', cursive;
+}
+h1 {
+    font-size: 450%;
+    /* font-family: 'Indie Flower'; */
+}
+
+h2 {
+    font-size: 300%;
+    font-family: 'Rock Salt';
+}
+
+
+h2.headline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2.headline.no-border {
+    border-bottom: none;
+}
+
+h2.headline.border-bot {
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 200%;
+    margin-top: 5px;
+}
+
+h1 small,
+h2 small,
+h3 small {
+    color: #CCC;
+}
+
+@media(min-width:1200px) {
+    h1 {
+        font-size: 75px;
+    }
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
