@@ -1,0 +1,37 @@
+#live {
+    /* background-image: url(http://d23z6sds1eazhh.cloudfront.net/gfx/18095_10151334944124402_726565575_n.jpg); */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    margin-top: 80px;
+    /* margin-bottom:40px; */
+    padding-bottom: 40px;
+}
+
+#live .table>tbody>tr:hover>td {
+    background: black;
+}
+
+.liveintro {
+    text-align: center;
+    font-style: italic;
+    color: #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-family: 'Unkempt', cursive;
+}
+
+.livepast {
+    color: #CCC;
+    text-align: center;
+    font-style: italic;
+}
+
+.liveschedule>thead>tr> th {
+    font-size: 11px;
+    font-weight: normal;
+    color: #CCC
+}
