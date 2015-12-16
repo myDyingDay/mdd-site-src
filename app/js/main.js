@@ -28,10 +28,10 @@ var staticDomain = '';
             return false;
         }
     });
-    var page_scroll_window_scrolltop = 0;
-    var page_scroll_panel = '';
-    var page_scroll_link = '';
-    var page_scroll_li = '';
+    var page_scroll_window_scrolltop = 0,
+        page_scroll_panel = '',
+        page_scroll_link = '',
+        page_scroll_li = '';
 
     function page_scroll_section() {
         page_scroll_window_scrolltop = jQuery(window).scrollTop();
@@ -70,38 +70,36 @@ var staticDomain = '';
     });
 
 
-    var displaylimit = 5;
-    var twitterprofile = 'mydyingdayrocks';
-    var screenname = 'my dyingDay';
-    var showdirecttweets = false;
-    var showretweets = false;
-    var showtweetlinks = true;
-    var showprofilepic = false;
-    var showtweetactions = false;
-    var showretweetindicator = false;
+    var displaylimit = 5,
+        twitterprofile = 'mydyingdayrocks',
+        screenname = 'my dyingDay',
+        showdirecttweets = false,
+        showretweets = false,
+        showtweetlinks = true,
+        showprofilepic = false,
+        showtweetactions = false,
+        showretweetindicator = false;
 
-    var headerHTML = '';
-    var loadingHTML = 'Loading tweets ...';
-    headerHTML += '';
 
-    $('#twitter-feed').html(headerHTML + loadingHTML);
+    $('#twitter-feed').html('Loading tweets ...');
     $.ajaxSetup({
         cache: true
     });
     $.getJSON('/json/tweets.json',
         function(feeds) {
-            var feedHTML = '';
-            var feedIndex = '';
-            var feedBody = '';
-            var displayCounter = 1;
+            var feedHTML = '',
+                feedIndex = '',
+                feedBody = '',
+                displayCounter = 1;
+
             for (var i = 0; i < feeds.length; i++) {
-                var tweetscreenname = feeds[i].user.name;
-                var tweetusername = feeds[i].user.screen_name;
-                var profileimage = feeds[i].user.profile_image_url_https;
-                var status = feeds[i].text;
-                var isaretweet = false;
-                var isdirect = false;
-                var tweetid = feeds[i].id_str;
+                var tweetscreenname = feeds[i].user.name,
+                    tweetusername = feeds[i].user.screen_name,
+                    profileimage = feeds[i].user.profile_image_url_https,
+                    status = feeds[i].text,
+                    isaretweet = false,
+                    isdirect = false,
+                    tweetid = feeds[i].id_str;
 
                 if (typeof feeds[i].retweeted_status !== 'undefined') {
                     profileimage = feeds[i].retweeted_status.user.profile_image_url_https;
@@ -223,10 +221,12 @@ var staticDomain = '';
     function relative_time(time_value) {
         var values = time_value.split(' ');
         time_value = values[1] + ' ' + values[2] + ', ' + values[5] + ' ' + values[3];
+
         var parsed_date = Date.parse(time_value);
         var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
         var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
         var shortdate = time_value.substr(4, 2) + ' ' + time_value.substr(0, 3);
+
         delta = delta + (relative_to.getTimezoneOffset() * 60);
 
         if (delta < 60) {
