@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    background-image: url(http://d23z6sds1eazhh.cloudfront.net/gfx/bg5.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    text-shadow: 2px 1px 3px #000000;
+}
+
+@media(max-width:767px) {
+
+    body {
+        background:none;
+        background-color: #111;
+        // background-image: url(http://d23z6sds1eazhh.cloudfront.net/gfx/bg5.jpg);
+        // background-repeat: repeat;
+        // background-position: center;
+        // background-attachment: fixed;
+        -webkit-background-size: auto, auto;
+        -moz-background-size: auto, auto;
+        -o-background-size: auto, auto;
+        background-size: auto, auto;
+    }
+}
