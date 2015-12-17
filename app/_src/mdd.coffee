@@ -70,19 +70,69 @@ OpenAlbum = (strAlbum, strTrack) ->
     s = '<div id="playerouter" data-container="body" data-toggle="popover" data-placement="left" data-content="Press PLAY to start the track ...">'
     d = ''
     if reverbNationUrl.length > 0
-      s += '<iframe class="widget_iframe" src="http://www.reverbnation.com/widget_code/html_widget/artist_2828114?widget_id=50&pwc[design]=customized&pwc[background_color]=%23000000&pwc[included_songs]=0&pwc[song_ids]=' + reverbNationUrl + '&pwc[photo]=0&pwc[size]=fit" width="100%" height="80" frameborder="0" scrolling="no"></iframe>'
+      s += '''
+        <iframe
+          class="widget_iframe"
+          src="http://www.reverbnation.com/widget_code/html_widget/artist_2828114?widget_id=50&pwc[design]=customized&pwc[background_color]=%23000000&pwc[included_songs]=0&pwc[song_ids]=''' + reverbNationUrl + '''&pwc[photo]=0&pwc[size]=fit"
+          width="100%"
+          height="80"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>'''
     else if spotifyUrl.length > 0
-      s += ' <iframe class="widget_iframe"  src="https://embed.spotify.com/?uri=spotify:track:' + spotifyUrl + '&theme=dark&view=list" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>'
+      s += '''
+        <iframe
+          class="widget_iframe"
+          src="https://embed.spotify.com/?uri=spotify:track:''' + spotifyUrl + '''&theme=dark&view=list"
+          width="100%"
+          height="80"
+          frameborder="0"
+          allowtransparency="true"
+        ></iframe>'''
     else if iTunesUrl.length > 0
     else if bandCampUrl.length > 0
-      s += '<iframe style="border: 0; width: 100%; height: 142px;" src="http://bandcamp.com/EmbeddedPlayer/track=' + bandCampUrl + '/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/" seamless><a href="http://officialmydyingday.bandcamp.com/track/nihilism">Nihilism by my dyingDay</a></iframe>'
+      s += '''
+        <iframe
+          style="border: 0; width: 100%; height: 142px;"
+          src="http://bandcamp.com/EmbeddedPlayer/track=''' + bandCampUrl + '''/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/"
+          seamless>
+            <a
+              href="http://officialmydyingday.bandcamp.com/track/nihilism"
+            >
+              Nihilism by my dyingDay
+            </a>
+        </iframe>
+      '''
     else if soundCloudUrl.length > 0
-      s += '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + soundCloudUrl + '&amp;auto_play=true&amp;hide_related=true&amp;visual=false&amp;show_artwork=false"></iframe>'
+      s += '''
+        <iframe
+          width="100%"
+          height="166"
+          scrolling="no"
+          frameborder="no"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/''' + soundCloudUrl + '''&amp;auto_play=true&amp;hide_related=true&amp;visual=false&amp;show_artwork=false"
+        >
+        </iframe>'''
+
     s += '</div>'
     if reverbNationUrl.length > 0
-      d += '<a href="http://www.reverbnation.com/mydyingday/song/' + reverbNationUrl + '-' + reverbNationSlug + '" target="_blank"><img src="' + staticDomain + '/img/badge_reverb-lrg.png" /></a> '
+      d += '''
+        <a
+          href="http://www.reverbnation.com/mydyingday/song/''' + reverbNationUrl + '''-''' + reverbNationSlug + '''"
+          target="_blank"
+        >
+          <img src="''' + staticDomain + '''/img/badge_reverb-lrg.png" />
+        </a>
+      '''
     if iTunesUrl.length > 0
-      d += '<a href="http://itunes.apple.com/dk/album/' + albumiTunesSlug + '/id' + albumiTunesID + '?i=' + iTunesUrl + '" target="_blank"><img src="' + staticDomain + '/img/badge_itunes-lrg.png" /></a> '
+      d += '''
+        <a
+          href="http://itunes.apple.com/dk/album/''' + albumiTunesSlug + '''/id''' + albumiTunesID + '''?i=''' + iTunesUrl + '''"
+          target="_blank"
+        >
+          <img src="''' + staticDomain + '''/img/badge_itunes-lrg.png" />
+        </a>
+      '''
     if spotifyUrl.length > 0
       d += '<a href="https://play.spotify.com/track/' + spotifyUrl + '" target="_blank"><img src="' + staticDomain + '/img/badge_spotify-lrg.png" /></a> '
     if bandCampUrl.length > 0
@@ -125,7 +175,47 @@ OpenAlbum = (strAlbum, strTrack) ->
 
 playVideo = (idVid, title) ->
   $('#videoplayer').html '<div style="padding:100px;text-align:center;font-size:20px;">Loading video ...</div>'
-  s = '<div style="background-color:rgba(0, 0, 0, 0.5);;border-top:1px solid #FFF"><div class="container"><div class="pull-left" style="width:80%; overflow:hidden;"><h3><span class="glyphicon glyphicon-expand" ></span> Video: ' + title + '</h3></div><div class="pull-right"><span class="close" onclick="$(\'#videoplayer\').html(\'\');" style="font-size: 51px;font-weight: bold;line-height: 1;color: #FFF;text-shadow: 0 1px 0 #fff;opacity: .9;filter: alpha(opacity=90);">&times;</span></div></div></div><div style="border-bottom:1px solid #FFF;padding-bottom:20px;margin-bottom:15px;background-color:rgba(0, 0, 0, 0.5);"><div class="videoembed"><div class="videowrapper"><div class="videocontainer"><iframe class="videoembedx youtube" src="//www.youtube.com/embed/' + idVid + '" frameborder="0" allowfullscreen=""></iframe></div></div></div></div>'
+
+  s = '''
+    <div
+      style="background-color:rgba(0, 0, 0, 0.5);
+      border-top:1px solid #FFF"
+      >
+      <div class="container">
+        <div class="pull-left" style="width:80%; overflow:hidden;">
+          <h3>
+            <span class="glyphicon glyphicon-expand" ></span>
+            Video: ''' + title + '''
+          </h3>
+        </div>
+
+        <div class="pull-right">
+          <span
+            class="close"
+              onclick="$('#videoplayer').html('');"
+              style="
+                font-size: 51px;
+                font-weight: bold;
+                line-height: 1;
+                color: #FFF;
+                text-shadow: 0 1px 0 #fff;
+                opacity: .9;
+                filter: alpha(opacity=90);
+                ">&times;</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="border-bottom:1px solid #FFF;padding-bottom:20px;margin-bottom:15px;background-color:rgba(0, 0, 0, 0.5);">
+      <div class="videoembed">
+        <div class="videowrapper">
+          <div class="videocontainer">
+            <iframe class="videoembedx youtube" src="//www.youtube.com/embed/''' + idVid + '''" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  '''
   $('#videoplayer').html s
   return
 
@@ -259,22 +349,73 @@ playVideo = (idVid, title) ->
           if displayCounter == 1
             carouselClass = 'active'
           else
-          feedHTML += '<div class="twitter-article" id="tw' + displayCounter + '">'
-          feedHTML += '<div class="twitter-text">'
-          feedHTML += '<p>'
-          feedHTML += '<span class="tweet-time"><a href="https://twitter.com/' + tweetusername + '/status/' + tweetid + '" target="_blank">' + relative_time(feeds[i].created_at) + '</a></span> '
-          feedHTML += '' + status + '</p>'
+          feedHTML += '''
+            <div class="twitter-article" id="tw''' + displayCounter + '''">
+              <div class="twitter-text">
+                <p>
+                  <span class="tweet-time">
+                    <a
+                      href="https://twitter.com/''' + tweetusername + '''/status/''' + tweetid + '''"
+                      target="_blank"
+                    >
+                      ''' + relative_time(feeds[i].created_at) + '''
+                    </a>
+                  </span>
+                  ''' + status + '''
+                </p>
+          '''
+
           if isaretweet == true and showretweetindicator == true
             feedHTML += '<div id="retweet-indicator"></div>'
           if showtweetactions == true
-            feedHTML += '<div id="twitter-actions"><div class="intent" id="intent-reply"><a href="https://twitter.com/intent/tweet?in_reply_to=' + tweetid + '" title="Reply"></a></div><div class="intent" id="intent-retweet"><a href="https://twitter.com/intent/retweet?tweet_id=' + tweetid + '" title="Retweet"></a></div><div class="intent" id="intent-fave"><a href="https://twitter.com/intent/favorite?tweet_id=' + tweetid + '" title="Favourite"></a></div></div>'
+            feedHTML += '''
+              <div id="twitter-actions">
+                <div class="intent" id="intent-reply">
+                  <a
+                    href="https://twitter.com/intent/tweet?in_reply_to=''' + tweetid + '''"
+                    title="Reply"
+                  ></a>
+                </div>
+                <div class="intent" id="intent-retweet">
+                  <a
+                    href="https://twitter.com/intent/retweet?tweet_id=''' + tweetid + '''"
+                    title="Retweet"
+                  ></a>
+                </div>
+                <div class="intent" id="intent-fave">
+                  <a
+                    href="https://twitter.com/intent/favorite?tweet_id=''' + tweetid + '''"
+                    title="Favourite"
+                  ></a>
+                </div>
+              </div>
+            '''
           feedHTML += '</div>'
           feedHTML += '</div>'
           feedIndex += '<li data-target="#carousel-example-generic" data-slide-to="' + displayCounter - 1 + '" class="' + carouselClass + '"></li>'
           feedBody += '<div class="item ' + carouselClass + '"><div class="carousel-caption"><small class="text-muted">' + relative_time(feeds[i].created_at) + '</small> ' + status + '</div></div>'
           displayCounter++
       i++
-    twrap = '<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!-- Indicators --><ol class="carousel-indicators">' + feedIndex + '</ol><!-- Wrapper for slides --><div class="carousel-inner">' + feedBody + '</div><!-- Controls --><a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a></div>'
+    twrap = '''
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">''' + feedIndex + '''</ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">''' + feedBody + '''</div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+      </div>
+
+      '''
     $('#twitter-feed').html twrap
     $('.carousel').carousel()
     if showtweetactions == true
