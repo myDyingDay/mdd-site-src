@@ -19,7 +19,12 @@ Download or clone this repository, then `cd` into the dir and run:
 
 ## Run
 
-`$ grunt serve` Builds everything, boots up webserver and opens brower
+`$ grunt serve` Builds everything, boots up webserver and opens browser at [127.0.0.1:3000](http://127.0.0.1:3000), then watches for file changes and respons accordingly.
+
+
+## Edit content
+
+Albums, Videos, Dates, Timeline, & members are stored in individual .yml-files under [app/_data/](app/_data/).
 
 
 ## Deploy
