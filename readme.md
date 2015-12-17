@@ -20,7 +20,7 @@ Download or clone this repository, then `cd` into the dir and run:
 ## Run
 
 
-`$ grunt serve` Builds everything, boots up webserver and opens browser at [127.0.0.1:3000](http://127.0.0.1:3000), then watches for file changes and respons accordingly.
+`$ grunt serve` Builds everything, boots up webserver and opens browser at [127.0.0.1:3000](http://127.0.0.1:3000), then watches for file changes and responds accordingly.
 
 
 ## Edit content
