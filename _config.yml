@@ -42,25 +42,12 @@ highlighter: false
 
 
 collections:
-
   albums:
-    output: false
-    # permalink: /bits/:url
-    # You cannot output these data thingies?
-
   videos:
-    output: false
-    # permalink: /bits/:url
-    # You cannot output these data thingies?
-
   timeline:
-    output: false
-
   members:
-    output: false
-
   dates:
-    output:false
+  social:
 
 
 googlecode: UA-34020624-1
