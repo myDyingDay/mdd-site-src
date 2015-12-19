@@ -8,7 +8,7 @@ It is build locally with Grunt & Jekyll, and deployed to `mydyingday.github.io`
 
 ## Setup
 
-You'll need `npm` & `grunt` to be installed on your system. 
+You'll need `npm`, `bower`, & `grunt` to be properly installed on your system. 
 
 Download or clone this repository, then `cd` into the dir and run:
 
