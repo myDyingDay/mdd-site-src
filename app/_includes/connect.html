@@ -1,14 +1,15 @@
 <!-- CONNECT -->
+{% assign links = (site.data.social) %}
 <div id="connect" class="xpanel">
     <div class="container">
         <h2 class="headline">
             <span class="glyphicon glyphicon-heart"></span>
             Connect
-            <small>with my dyingDay</small>
+            <small>with {{ site.name }}</small>
         </h2>
         <h3 class="bigtype" style="text-align:center;line-height:200%;">
             Fans &amp; Music Lovers<br>
-            Connect with my dyingDay here:
+            Connect with {{ site.name }} here:
         </h3>
 
         <br>
@@ -23,34 +24,21 @@
         ">
         <div class="container">
             <div class="row">
+                {% for link in links %}
                 <div class="col-sm-2" style="text-align:center;">
                     <a
-                        href="http://www.facebook.com/mydyingdaymusic"
+                        href="{{ link.link }}"
                         target="_blank"
                         >
                         <img
                             class="xsocial-icon"
-                            src="/img/icons/facebook.png"
-                            alt="my dyingDay on Facebook"
-                            title="my dyingDay on Facebook"
+                            src="{{ link.image }}"
+                            alt="{{ site.name }} on {{ link.name }}"
+                            title="{{ site.name }} on {{ link.name }}"
                         >
                     </a>
                 </div>
-                <div class="col-sm-2" style="text-align:center;">
-                    <a href="http://twitter.com/mydyingDayRocks" target="_blank"><img class="xsocial-icon" src="/img/icons/twitter.png" alt="my dyingDay on Twitter" title="my dyingDay on Twitter"></a>
-                </div>
-                <div class="col-sm-2" style="text-align:center;">
-                    <a href="http://www.reverbnation.com/mydyingday" target="_blank"><img class="xsocial-icon" src="/img/icons/reverb.png" alt="my dyingDay on Reverb Nation" title="my dyingDay on Reverb Nation"></a>
-                </div>
-                <div class="col-sm-2" style="text-align:center;">
-                    <a href="http://instagram.com/mydyingday" target="_blank"><img class="xsocial-icon" src="/img/icons/instagram.png" alt="my dyingDay on Instagram" title="my dyingDay on Instagram"></a>
-                </div>
-                <div class="col-sm-2" style="text-align:center;">
-                    <a href="https://itunes.apple.com/dk/artist/my-dyingday/id787102568" target="_blank"><img class="xsocial-icon" src="/img/icons/itunes.png" alt="my dyingDay on iTunes" title="my dyingDay on iTunes"></a>
-                </div>
-                <div class="col-sm-2" style="text-align:center;">
-                    <a href="https://play.spotify.com/artist/1mtFhpkRzcG9bhIVPTXMbd" target="_blank"><img class="xsocial-icon" src="/img/icons/spotify.png" alt="my dyingDay on Spotify" title="my dyingDay on Spotify"></a>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
