@@ -16,6 +16,9 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
+
+    pkg: grunt.file.readJSON('package.json'),
+
     // Configurable paths
     yeoman: {
       app: 'app',
@@ -325,10 +328,10 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'https://github.com/myDyingDay/mydyingday.github.io.git',
-          branch: 'master',
-          commit: true,
-          push: true
+          remote: '<%= pkg.deploy.remote %>',
+          branch: '<%= pkg.deploy.branch %>',
+          commit: '<%= pkg.deploy.commit %>',
+          push: '<%= pkg.deploy.push %>'
         }
       }
     },
