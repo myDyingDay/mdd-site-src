@@ -1,0 +1,23 @@
+- name: Facebook
+  image: /img/icons/facebook.png
+  link: http://www.facebook.com/mydyingdaymusic
+
+- name: Twitter
+  image: /img/icons/twitter.png
+  link: http://twitter.com/mydyingDayRocks
+
+- name: Reverbnation
+  image: /img/icons/reverb.png
+  link: http://www.reverbnation.com/mydyingday
+
+- name: Instagram
+  image: /img/icons/instagram.png
+  link: http://instagram.com/mydyingday
+
+- name: iTunes
+  image: /img/icons/itunes.png
+  link: https://itunes.apple.com/dk/artist/my-dyingday/id787102568
+
+- name: Spotify
+  image: /img/icons/spotify.png
+  link: https://play.spotify.com/artist/1mtFhpkRzcG9bhIVPTXMbd
