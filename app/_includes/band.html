@@ -1,0 +1,72 @@
+<!-- THE BAND -->
+<div id="band" class="xpanel">
+    <div class="container">
+        <h2 class="headline">
+            <span class="glyphicon glyphicon-camera"></span>
+            The Band
+            <small>- About my dyingDay</small>
+        </h2>
+    </div>
+    <div style="background-color:rgba(255, 255, 255, 0.1); margin-top:10px;padding-bottom:20px;margin-bottom:20px;">
+        <div class="container">
+            <ul class="lineup">
+                {% for member in members %}
+                <li>
+                    <img src="{{ member.image }}" class="img-circle" />
+                    <h3 class="membername bigtype">{{ member.name }}</h3>
+                    <span class="memberrole">{{ member.instrument }}</span>
+                    <div class="clearfix"></div>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 class="bigtype">
+                    We are: my dyingDay!
+                </h3>
+                <p>
+                    We blend old-school heavy rock with electronica using wooden guitars, accoustic drums, home-build pedal-boards and new technology.
+                </p>
+
+                <br>
+                <h4 class="bigtype">
+                    Where?
+                </h4>
+                <p>
+                    We are located in Copenhagen, Denmark.
+                </p>
+                <br>
+                <h4 class="bigtype">
+                    Influences:
+                </h4>
+                <p>
+                    We are influenced by Black Sabbath, Nine Inch Nails, Foo Fighters, Ministry, Mustasch &amp; other fine artists.
+                </p>
+                <br>
+
+                <h4 class="bigtype">
+                    We sound like ...
+                </h4>
+                <p>
+                    ... Well, go listen to our music ;)
+                </p>
+            </div>
+            <br>
+            <div class="col-sm-4">
+                <h3>Mile Stones</h3>
+                <ul class="milestonelist">
+                    {% for milestone in milestones %}
+                    <li>
+                        <small class="bigtype">{{ milestone.year }}: </small>
+                        {{ milestone.title }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
