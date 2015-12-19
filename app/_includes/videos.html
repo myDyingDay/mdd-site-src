@@ -1,0 +1,42 @@
+<!-- VIDEOS -->
+{% if videos.size > 0 %}
+<div id="media" class="xpanel">
+    <div class="container">
+        <h2 class="headline">
+            <span class="glyphicon glyphicon-film"></span>
+            Videos <small>by my dyingDay</small>
+        </h2>
+        <blockquote>
+            <h3>
+                Here are some of our videos. We publish on <a href="http://www.youtube.com/mydyingdayrocks" target="_blank" style="color:#FFF">YouTube - subscribe to our channel</a>!
+            </h3>
+        </blockquote>
+
+
+        <ul class="mediastream" id="videomediastreamlist">
+
+            {% for video in videos %}
+            <li>
+                <div class="mediaitem">
+                    <a href="#videomediastreamlist" onclick="playVideo('{{ video.video_id }}', '{{ video.title }} {{ video.subtitle }}')">
+
+                        <img src="{{ video.image }}" alt="{{ video.title }} {{ video.subtitle }}" title="{{ video.title }} {{ video.subtitle }}" />
+
+                        <span class="playbutton"><span class="glyphicon glyphicon-expand"></span></span>
+
+                        <span class="medialabel">
+                            {{ video.title }}
+                            <small>{{ video.subtitle }}</small>
+                        </span>
+
+                    </a>
+                </div>
+            </li>
+            {% endfor %}
+
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    <div id="videoplayer"></div>
+</div>
+{% endif %}
