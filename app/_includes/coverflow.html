@@ -1,0 +1,33 @@
+<!-- COVERFLOW -->
+<div class="coverwrap">
+
+    <!-- WELCOME -->
+    <div id="headercontent">
+        <div class="container xpanel" style="text-align:center; ">
+            <h1>
+                <span class="hidden-xs">
+                    Hello World! We are my dyingDay!
+                </span>
+                <span class="hidden-md hidden-lg hidden-sm">
+                    Hi! We are my dyingDay!
+                </span>
+            </h1>
+            <h2 class="intro">
+                - a 99.9% D.I.Y. rock band from Copenhagen, Denmark.
+            </h2>
+        </div>
+    </div>
+
+    <!-- COVER FLOW -->
+    {% if covers.size == 0 %}
+        No cover!
+    {% endif %}
+
+    <div class="wrapper">
+        <div id="coverflow">
+            {% for cover in covers limit:3 %}
+                <a href="#{{ cover.slug }}"><img id="cf-{{ cover.feature_sort }}" src="{{ cover.cover }}" data-artist="{{ cover.artist }}" data-album="{{ cover.title }}" /></a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
