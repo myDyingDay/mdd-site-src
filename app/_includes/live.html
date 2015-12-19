@@ -1,0 +1,95 @@
+<!-- LIVE -->
+{% if dates.size > 0 %}
+<div id="live" class="xpanel">
+    <div class="container">
+        <h2 class="headline no-border">
+            <span class="glyphicon glyphicon-road"></span>
+            LIVE <small>- schedule for my dyingDay</small>
+        </h2>
+        <!--
+        <p class="liveintro">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            We are currently working on new material!
+        </p>
+        -->
+
+
+
+        <!-- <h4>2014</h4> -->
+        {% if upcoming_dates.size > 0 %}
+
+        <table class="table table-hover liveschedule">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Venue</th>
+                    <th>Location</th>
+                    <th>Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for show in upcoming_dates %}
+                <tr>
+                    <td>{{ show.date | date_to_string }}</td>
+                    <td><strong>{{ show.title }}</strong> {{ show.subtitle }}</td>
+                    <td>{{ show.venue }}</td>
+                    <td><small class="text-muted">{{ show.city }} ({{ show.country }})</small></td>
+                    <td>
+                        {% if show.facebook %}
+                            <a href="{{ show.facebook }}" target="_blank">
+                                Facebook Event
+                            </a>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td>June 06</td>
+                    <td><strong>my dyingDay</strong> + Superdirt</td>
+                    <td>D&aelig;monens Port</td>
+                    <td><small class="text-muted">Copenhagen (DK)</small></td>
+                    <td><a href="https://www.facebook.com/events/301675826656673/" target="_blank">Facebook Event</a></td>
+                </tr>
+                <tr>
+                    <td>T.B.A.</td>
+                    <td><strong>Album Release Party</strong></td>
+                    <td>High Voltage</td>
+                    <td><small class="text-muted">Copenhagen (DK)</small></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="livepast">
+            We also recently appeared at
+            {% for venue in recent_dates limit:3 %}
+            {{ venue.venue }},
+            {% endfor %}
+
+            &amp; other fine venues.
+
+        </p>
+        {% else %}
+
+        <p class="liveintro">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            No confirmed shows at the moment.
+        </p>
+
+        <p class="livepast">
+            We recently appeared at
+            {% for venue in recent_dates limit:3 %}
+            {{ venue.venue }},
+            {% endfor %}
+
+            &amp; other fine venues.
+
+        </p>
+
+        {% endif %}
+    </div>
+</div>
+{% endif %}
