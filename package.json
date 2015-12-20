@@ -7,7 +7,7 @@
         "remote": "https://github.com/myDyingDay/mydyingday.github.io.git",
         "branch": "master",
         "commit": true,
-        "push": false
+        "push": true
     },
     "dependencies": {},
     "devDependencies": {
