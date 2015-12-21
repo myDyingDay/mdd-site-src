@@ -389,7 +389,7 @@ module.exports = function(grunt) {
             options: {
                 files: ['package.json'],
                 updateConfigs: [],
-                commit: false,
+                commit: true,
                 commitMessage: 'Release v%VERSION%',
                 commitFiles: ['package.json'],
                 createTag: false,
