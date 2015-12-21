@@ -1,7 +1,7 @@
 {
   "name": "mdd-yo-jekyll",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "my dyingDay's website workflow",
   "deploy": {
     "remote": "https://github.com/myDyingDay/mydyingday.github.io.git",
