@@ -12,7 +12,9 @@ author:
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico',
+          'app/readme.md' # Do not render into html. File is included in dist
+          ]
 
 # include: ['.htaccess']
 include: ['.nojekyll', 'CNAME']
