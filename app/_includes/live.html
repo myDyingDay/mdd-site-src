@@ -6,16 +6,7 @@
             <span class="glyphicon glyphicon-road"></span>
             LIVE <small>- schedule for my dyingDay</small>
         </h2>
-        <!--
-        <p class="liveintro">
-            <span class="glyphicon glyphicon-info-sign"></span>
-            We are currently working on new material!
-        </p>
-        -->
 
-
-
-        <!-- <h4>2014</h4> -->
         {% if upcoming_dates.size > 0 %}
 
         <table class="table table-hover liveschedule">
@@ -44,20 +35,7 @@
                     </td>
                 </tr>
                 {% endfor %}
-                <tr>
-                    <td>June 06</td>
-                    <td><strong>my dyingDay</strong> + Superdirt</td>
-                    <td>D&aelig;monens Port</td>
-                    <td><small class="text-muted">Copenhagen (DK)</small></td>
-                    <td><a href="https://www.facebook.com/events/301675826656673/" target="_blank">Facebook Event</a></td>
-                </tr>
-                <tr>
-                    <td>T.B.A.</td>
-                    <td><strong>Album Release Party</strong></td>
-                    <td>High Voltage</td>
-                    <td><small class="text-muted">Copenhagen (DK)</small></td>
-                    <td></td>
-                </tr>
+
                 <tr>
                     <td colspan="5">&nbsp;</td>
                 </tr>
@@ -74,20 +52,19 @@
         </p>
         {% else %}
 
-        <p class="liveintro">
-            <span class="glyphicon glyphicon-info-sign"></span>
-            No confirmed shows at the moment.
-        </p>
+            <p class="liveintro">
+                <span class="glyphicon glyphicon-info-sign"></span>
+                No confirmed shows at the moment.
+            </p>
 
-        <p class="livepast">
-            We recently appeared at
-            {% for venue in recent_dates limit:3 %}
-            {{ venue.venue }},
-            {% endfor %}
+            <p class="livepast">
+                We recently appeared at
+                {% for venue in recent_dates limit:3 %}
+                {{ venue.venue }},
+                {% endfor %}
 
-            &amp; other fine venues.
-
-        </p>
+                &amp; other fine venues.
+            </p>
 
         {% endif %}
     </div>
