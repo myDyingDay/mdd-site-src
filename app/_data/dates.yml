@@ -38,7 +38,6 @@
   country: DK
   facebook: https://www.facebook.com/events/382805985226662/
 
-
 - title: Listening session
   subtitle:
   date: 2015-02-23 00:00
@@ -54,3 +53,83 @@
   city: Copenhagen
   country: DK
   facebook: https://www.facebook.com/events/319285261515537/
+
+- title: my dyingDay
+  subtitle: + The Army
+  date: 2013-10-26 00:00
+  venue: Drop Inn
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/452412598211941/
+
+- title: Rock Island Festival
+  subtitle:
+  date: 2013-10-26 00:00
+  venue: Galløkken
+  city: Rønne
+  country: DK
+  facebook: https://www.facebook.com/events/153287764860985/
+
+- title: my dyingDay
+  subtitle:
+  date: 2013-01-12 00:00
+  venue: Sin City
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/153287764860985/
+
+- title: my dyingDay
+  subtitle: + Saint Rebel & Bullet Train Blast
+  date: 2012-10-27 00:00
+  venue: Pumpehuset
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/238935392888617/
+
+- title: my dyingDay
+  subtitle:
+  date: 2012-10-11 00:00
+  venue: Lions & Barrels
+  city: Copenhagen
+  country: DK
+  facebook:
+
+- title: my dyingDay
+  subtitle:
+  date: 2012-09-21 00:00
+  venue: Lygten Station
+  city: Copenhagen
+  country: DK
+  facebook:
+
+- title: Rock Island Festival
+  subtitle:
+  date: 2012-08-18 00:00
+  venue: Galløkken
+  city: Rønne
+  country: DK
+  facebook:
+
+- title: my dyingDay
+  subtitle: + Superdirt & L.A. Collection
+  date: 2012-05-16 00:00
+  venue: Lions & Barrels
+  city: Copenhagen
+  country: DK
+  facebook: https://www.facebook.com/events/435355779814272/
+
+- title: my dyingDay
+  subtitle: + Fall From Grace
+  date: 2012-05-12 00:00
+  venue: Det Bruunske Pakhus
+  city: Fredericia
+  country: DK
+  facebook:
+
+- title: my dyingDay
+  subtitle: + Crashpop
+  date: 2011-09-08 00:00
+  venue: Drop Inn
+  city: Copenhagen
+  country: DK
+  facebook:
