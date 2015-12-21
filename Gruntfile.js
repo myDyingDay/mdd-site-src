@@ -18,6 +18,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
 
         pkg: grunt.file.readJSON('package.json'),
+        site: grunt.file.readYAML('_config.yml'),
 
         // Configurable paths
         yeoman: {
@@ -409,6 +410,8 @@ module.exports = function(grunt) {
 
     // Define Tasks
     grunt.registerTask('serve', function(target) {
+        console.log('Serving '+ grunt.config.data.site.name +' ... ');
+
         if (target === 'dist') {
             return grunt.task.run(['build', 'browserSync:dist']);
         }
