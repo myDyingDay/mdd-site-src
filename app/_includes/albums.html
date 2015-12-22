@@ -14,12 +14,18 @@
                     <div class="coverwrapper">
                         <a
                             href="javascript:;"
-                            onclick="OpenAlbum('{{ album.slug }}','01');"
+
+                            onclick="OpenAlbum('{{ album.slug }}','01');console.log('TODO: Use class + data attr instead');"
+
+                            class="album_link"
+
+                            data-artist="{{ album.artist }}"
+                            data-album="{{ album.title }}"
+                            data-slug="{{ album.slug }}"
                         >
                             <img
                                 src="{{ album.cover }}"
-                                data-artist="{{ album.artist }}"
-                                data-album="{{ album.title }}"
+                                alt="{{ album.title }}"
                                 width="100%"
                             />
                         </a>
@@ -43,7 +49,15 @@
                                 <td>
                                     <a
                                         href="javascript:;"
-                                        onclick="OpenAlbum('{{ album.slug }}','{{ track.number }}')"
+
+                                        onclick="OpenAlbum('{{ album.slug }}','{{ track.number }}');console.log('TODO: Use class + data attr instead');"
+
+                                        class="track_link"
+
+                                        data-artist="{{ album.artist }}"
+                                        data-album="{{ album.title }}"
+                                        data-slug="{{ album.slug }}"
+                                        data-track="{{ track.number }}"
                                     >
                                         <small class="hidden-mob text-muted">
                                             {{ track.number }}
@@ -69,64 +83,7 @@
 
                         <small class="text-muted">Available at:</small>
 
-                        {% if album.itunes %}
-                            <a
-                                href="{{ album.itunes }}"
-                                target="_blank">
-
-                                <img src="/img/badge_itunes-lrg.png" alt="Get {{ album.title }} on iTunes">
-
-                            </a>
-                        {% endif %}
-
-
-                        {% if album.spotify %}
-                            <a
-                                href="{{ album.spotify }}"
-                                target="_blank">
-
-                                <img
-                                    src="/img/badge_spotify-lrg.png"
-                                    alt="Stream {{ album.title }} on Spotify">
-
-                            </a>
-                        {% endif %}
-
-                        {% if album.reverb %}
-                            <a
-                                href="{{ album.reverb }}"
-                                target="_blank">
-
-                                <img
-                                    src="/img/badge_reverb-lrg.png"
-                                    alt="Stream {{ album.title }} on Reverb Nation">
-
-                            </a>
-                        {% endif %}
-
-                        {% if album.bandcamp %}
-                            <a
-                                href="{{ album.bandcamp }}"
-                                target="_blank">
-
-                                <img
-                                    src="/img/badge_bandcamp-lrg.png"
-                                    alt="Stream {{ album.title }} on Bandcamp">
-
-                            </a>
-                        {% endif %}
-
-                        {% if album.soundcloud %}
-                            <a
-                                href="{{ album.soundcloud }}"
-                                target="_blank">
-
-                                <img
-                                    src="/img/badge_soundcloud-lrg.png"
-                                    alt="Stream {{ album.title }} on Sound Cloud">
-
-                            </a>
-                        {% endif %}
+                        {% include album_link_badges.html %}
 
                     </div>
                 </div>
