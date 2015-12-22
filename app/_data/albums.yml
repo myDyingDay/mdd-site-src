@@ -26,7 +26,7 @@
   featured: y
   feature_sort: 2
   year: 2015
-  cover: /img/land-of-the-blind.jpg
+  cover: /img/covers/land-of-the-blind.jpg
   format: Album (stream and download)
   itunes: https://itunes.apple.com/dk/album/land-of-the-blind/id972673505
   spotify: https://open.spotify.com/album/20wsfY5yXzhPWMsGAdq55k
@@ -99,7 +99,7 @@
   feature_sort: 3
   year: 2014
   slug: breathing
-  cover: /img/breathing_cover_500.jpg
+  cover: /img/covers/breathing_cover_500.jpg
   format: Single (stream and download)
   itunes: https://itunes.apple.com/dk/album/breathing-single/id885022154
   spotify: http://open.spotify.com/track/5NQbasSeE3MID10QFa5qwC
@@ -120,7 +120,7 @@
   format: Single (stream and download)
   year: 2013
   slug: tainted-ways
-  cover: /img/tainted_ways_cover_500.jpg
+  cover: /img/covers/tainted_ways_cover_500.jpg
   itunes: https://itunes.apple.com/dk/album/tainted-ways-single/id787102526
   spotify: http://open.spotify.com/track/5NQbasSeE3MID10QFa5qwC
 
@@ -146,7 +146,7 @@
   feature_sort: 3
   year: 2012
   format: Stream and download
-  cover: /img/a3838405953_2.jpg
+  cover: /img/covers/a3838405953_2.jpg
   slug: 2012-project
 
   reverb: http://www.reverbnation.com/playlist/view_playlist/-4?page_object=artist_2828114
@@ -211,7 +211,7 @@
   artist: my dyingDay
   format: CD
   slug: fragile-alliance
-  cover: /img/fragile-cover-full.jpg
+  cover: /img/covers/fragile-cover-full.jpg
   soundcloud: https://soundcloud.com/mydyingday/sets/promo
 
   tracks:
