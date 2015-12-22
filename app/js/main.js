@@ -347,19 +347,19 @@ function OpenAlbum(strAlbum, strTrack) {
 
 
             if (reverbNationUrl.length > 0) {
-                d += '<a href="http://www.reverbnation.com/mydyingday/song/' + reverbNationUrl + '-' + reverbNationSlug + '" target="_blank"><img src="' + staticDomain + '/img/badge_reverb-lrg.png" /></a> ';
+                d += '<a href="http://www.reverbnation.com/mydyingday/song/' + reverbNationUrl + '-' + reverbNationSlug + '" target="_blank"><img src="' + staticDomain + '/img/badges/badge_reverb-lrg.png" /></a> ';
             }
 
             if (iTunesUrl.length > 0) {
-                d += '<a href="http://itunes.apple.com/dk/album/' + albumiTunesSlug + '/id' + albumiTunesID + '?i=' + iTunesUrl + '" target="_blank"><img src="' + staticDomain + '/img/badge_itunes-lrg.png" /></a> ';
+                d += '<a href="http://itunes.apple.com/dk/album/' + albumiTunesSlug + '/id' + albumiTunesID + '?i=' + iTunesUrl + '" target="_blank"><img src="' + staticDomain + '/img/badges/badge_itunes-lrg.png" /></a> ';
             }
 
             if (spotifyUrl.length > 0) {
-                d += '<a href="https://play.spotify.com/track/' + spotifyUrl + '" target="_blank"><img src="' + staticDomain + '/img/badge_spotify-lrg.png" /></a> ';
+                d += '<a href="https://play.spotify.com/track/' + spotifyUrl + '" target="_blank"><img src="' + staticDomain + '/img/badges/badge_spotify-lrg.png" /></a> ';
             }
 
             if (bandCampUrl.length > 0) {
-                d += '<a href="http://officialmydyingday.bandcamp.com/track/' + bandCampSlug + '" target="_blank"><img src="' + staticDomain + '/img/badge_bandcamp-lrg.png" /></a> ';
+                d += '<a href="http://officialmydyingday.bandcamp.com/track/' + bandCampSlug + '" target="_blank"><img src="' + staticDomain + '/img/badges/badge_bandcamp-lrg.png" /></a> ';
             }
 
             d = '<div class="playerdownloadicons">' + d + '</div>';
