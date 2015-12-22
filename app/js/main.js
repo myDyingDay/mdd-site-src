@@ -290,7 +290,7 @@ function OpenAlbum(strAlbum, strTrack) {
                 var albumCover = item.Cover;
 
                 if (strAlbum === albumID) {
-                    albumSelector += '<a href="javascript:;" onclick="OpenAlbum(\'' + albumID + '\', \'01\')"><img src="' + albumCover + '" class="active" style="width:50px;" /></a> ';
+                    albumSelector += '<a href="javascript:;" onclick="OpenAlbum(\'' + albumID + '\', \'01\')"><img src="' + albumCover + '" class="playercover-list active" /></a> ';
                     albumTitle = albumName;
                     albumCoverUrl = albumCover;
 
@@ -321,7 +321,7 @@ function OpenAlbum(strAlbum, strTrack) {
 
                     }
                 } else {
-                    albumSelector += '<a href="javascript:;" onclick="OpenAlbum(\'' + albumID + '\', \'01\')"><img src="' + albumCover + '" style="width:50px;" /></a> ';
+                    albumSelector += '<a href="javascript:;" onclick="OpenAlbum(\'' + albumID + '\', \'01\')"><img src="' + albumCover + '" class="playercover-list" /></a> ';
                 }
             });
 
@@ -366,7 +366,7 @@ function OpenAlbum(strAlbum, strTrack) {
 
 
             $('#playermodaltitle').html(albumTitle);
-            $('#playermodalbody').html('<div class="pull-left playercover"><div class="coverwrapper"><img src="' + albumCoverUrl + '" style="width:100%;" /></div><div id="playeralbums">' + albumSelector + '</div></div><div class="pull-left playercontentcol"><div class="playercontenttitle"><h4>' + trackTitle + '</h4></div>' + s + ' ' + d + '<ul class="albumtracklist"><li class="tracklistheader">Tracklist:</li>' + albumTrackList + '</ul></div><div class="clearfix"></div>');
+            $('#playermodalbody').html('<div class="pull-left playercover"><div class="coverwrapper-player"><img src="' + albumCoverUrl + '" style="width:100%;" /></div><div id="playeralbums">' + albumSelector + '</div></div><div class="pull-left playercontentcol"><div class="playercontenttitle"><h4>' + trackTitle + '</h4></div>' + s + ' ' + d + '<ul class="albumtracklist"><li class="tracklistheader">Tracklist:</li>' + albumTrackList + '</ul></div><div class="clearfix"></div>');
 
             $('#playerwin').modal('show');
 
