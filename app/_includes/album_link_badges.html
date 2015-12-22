@@ -1,0 +1,58 @@
+{% if album.itunes %}
+    <a
+        href="{{ album.itunes }}"
+        target="_blank">
+
+        <img src="/img/badges/badge_itunes-lrg.png" alt="Get {{ album.title }} on iTunes">
+
+    </a>
+{% endif %}
+
+
+{% if album.spotify %}
+    <a
+        href="{{ album.spotify }}"
+        target="_blank">
+
+        <img
+            src="/img/badges/badge_spotify-lrg.png"
+            alt="Stream {{ album.title }} on Spotify">
+
+    </a>
+{% endif %}
+
+{% if album.reverb %}
+    <a
+        href="{{ album.reverb }}"
+        target="_blank">
+
+        <img
+            src="/img/badges/badge_reverb-lrg.png"
+            alt="Stream {{ album.title }} on Reverb Nation">
+
+    </a>
+{% endif %}
+
+{% if album.bandcamp %}
+    <a
+        href="{{ album.bandcamp }}"
+        target="_blank">
+
+        <img
+            src="/img/badges/badge_bandcamp-lrg.png"
+            alt="Stream {{ album.title }} on Bandcamp">
+
+    </a>
+{% endif %}
+
+{% if album.soundcloud %}
+    <a
+        href="{{ album.soundcloud }}"
+        target="_blank">
+
+        <img
+            src="/img/badges/badge_soundcloud-lrg.png"
+            alt="Stream {{ album.title }} on Sound Cloud">
+
+    </a>
+{% endif %}
