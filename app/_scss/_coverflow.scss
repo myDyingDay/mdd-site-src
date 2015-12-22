@@ -1,4 +1,4 @@
-.coverwrapper {
+.coverwrapper,  .coverwrapper-big{
     text-align: center;
     margin-bottom: 30px;
 }
@@ -16,6 +16,24 @@
   */
 }
 
+.coverwrapper-big img{
+      width: 100%;
+      border: 1px solid #333;
+}
+.coverwrapper-player img{
+    margin-bottom: 10px;
+
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 0px 10px 7px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 0px 10px 7px rgba(50, 50, 50, 0.75);
+
+      width: 100%;
+      border: 1px solid #fff;
+}
+.playercover-list {
+    width:35px;
+
+}
 .coverwrap {
     background-position: center bottom;
     background-repeat: no-repeat;
