@@ -34,62 +34,62 @@
     - title: You Killed Hope
       duration: '3:51'
       number: '01'
-      # https://itun.es/dk/HhD-5?i=972673506
-      # https://open.spotify.com/track/4cvNK048HEj7XKZPbButXW
+      itunes: https://itun.es/dk/HhD-5?i=972673506
+      spotify: https://open.spotify.com/track/4cvNK048HEj7XKZPbButXW
 
     - title: Breathing
       duration: '3:34'
       number: '02'
-      # https://itun.es/dk/HhD-5?i=972673507
-      # https://open.spotify.com/track/7eOhc5M5lZcL38rlSDJzoe
+      itunes: https://itun.es/dk/HhD-5?i=972673507
+      spotify: https://open.spotify.com/track/7eOhc5M5lZcL38rlSDJzoe
 
     - title: Elevate
       duration: '3:53'
       number: '03'
-      # https://itun.es/dk/HhD-5?i=972673508
-      # https://open.spotify.com/track/6ZCnq7FCWVhVQkDj3egYI8
+      itunes: https://itun.es/dk/HhD-5?i=972673508
+      spotify: https://open.spotify.com/track/6ZCnq7FCWVhVQkDj3egYI8
 
     - title: Circle After Circle
       duration: '3:58'
       number: '04'
-      # https://itun.es/dk/HhD-5?i=972673509
-      # https://open.spotify.com/track/1UxxbF8m8PFaB0BoFzgMEV
+      itunes: https://itun.es/dk/HhD-5?i=972673509
+      spotify: https://open.spotify.com/track/1UxxbF8m8PFaB0BoFzgMEV
 
     - title: Shakedown
       duration: '4:16'
       number: '05'
-      # https://itun.es/dk/HhD-5?i=972673512
-      # https://open.spotify.com/track/0c5UTWNsFAKnCVeHrNfiCv
+      itunes: https://itun.es/dk/HhD-5?i=972673512
+      spotify: https://open.spotify.com/track/0c5UTWNsFAKnCVeHrNfiCv
 
     - title: Tainted Ways
       duration: '5:46'
       number: '06'
-      # https://itun.es/dk/HhD-5?i=972673513
-      # https://open.spotify.com/track/15qLHZpNjW979G2XZFgXQP
+      itunes: https://itun.es/dk/HhD-5?i=972673513
+      spotify: https://open.spotify.com/track/15qLHZpNjW979G2XZFgXQP
 
     - title: Something Real
       duration: '3:41'
       number: '07'
-      # https://itun.es/dk/HhD-5?i=972673514
-      # https://open.spotify.com/track/3Shf8JrNQPM7g9mCshdmD0
+      itunes: https://itun.es/dk/HhD-5?i=972673514
+      spotify: https://open.spotify.com/track/3Shf8JrNQPM7g9mCshdmD0
 
     - title: Perfect Lie
       duration: '3:21'
       number: '08'
-      # https://itun.es/dk/HhD-5?i=972673515
-      # https://open.spotify.com/track/7glQVYnFNrn9hKEq1NDnvN
+      itunes: https://itun.es/dk/HhD-5?i=972673515
+      spotify: https://open.spotify.com/track/7glQVYnFNrn9hKEq1NDnvN
 
     - title: Drowning Slowly
       duration: '4:33'
       number: '09'
-      # https://itun.es/dk/HhD-5?i=972673516
-      # https://open.spotify.com/track/2DeOHP7IPYfhOqb9X2yJY2
+      itunes: https://itun.es/dk/HhD-5?i=972673516
+      spotify: https://open.spotify.com/track/2DeOHP7IPYfhOqb9X2yJY2
 
     - title: Faith
       duration: '3:30'
       number: '10'
-      # https://itun.es/dk/HhD-5?i=972673517
-      # https://open.spotify.com/track/4qYE6kTvrEmO4WKDDvIda7
+      itunes: https://itun.es/dk/HhD-5?i=972673517
+      spotify: https://open.spotify.com/track/4qYE6kTvrEmO4WKDDvIda7
 
 ####################################################
 
@@ -128,13 +128,13 @@
     - title: Tainted Ways
       duration: '05:47'
       spotity: xx
-      itunes: xxx
+      itunes: https://itun.es/dk/-SJ6U?i=787102571
       number: '01'
 
     - title: Tainted Ways (radio edit)
       duration: '03:52'
       spotity: xx
-      itunes: xxx
+      itunes: https://itun.es/dk/-SJ6U?i=787102572
       number: '02'
 
 ####################################################
