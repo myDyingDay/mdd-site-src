@@ -14,4 +14,4 @@
     Contact:    mydyingdayrocks@gmail.com
     Twitter:    @mydyingdayrocks
     Location:   Copenhagen, DK
-    Built with: Jekyll, HTML5, CSS3, jQuery
+    Built with: Jekyll, HTML5, CSS3, jQuery, Twitter Bootstrap
