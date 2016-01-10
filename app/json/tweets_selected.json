@@ -1,0 +1,1289 @@
+[
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "New Single \"Breathing\" out today on iTunes https://t.co/T9ERgoTdff #rock #cphdistortion #diy Check it out!", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 474865856091279360, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>", 
+        "retweeted": true, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [
+                {
+                    "indices": [
+                        67, 
+                        72
+                    ], 
+                    "text": "rock"
+                }, 
+                {
+                    "indices": [
+                        73, 
+                        87
+                    ], 
+                    "text": "cphdistortion"
+                }, 
+                {
+                    "indices": [
+                        88, 
+                        92
+                    ], 
+                    "text": "diy"
+                }
+            ], 
+            "urls": [
+                {
+                    "url": "https://t.co/T9ERgoTdff", 
+                    "indices": [
+                        43, 
+                        66
+                    ], 
+                    "expanded_url": "https://itunes.apple.com/dk/album/breathing-single/id885022154", 
+                    "display_url": "itunes.apple.com/dk/album/breat\u2026"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "474865856091279360", 
+        "retweet_count": 2, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Fri Jun 06 10:50:17 +0000 2014", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "We wanna thank each and everyone of you, for coming to our release party yesterday.\nWe had a blast and hope you had as well.... \nMy dyingDay", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 576761904225464320, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": []
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "576761904225464320", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "created_at": "Sat Mar 14 15:08:48 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "On this Friday 13th Danish National Television station DR are playing 210 seconds of my dyingDay, as they are... http://t.co/TR1mVIrWFC", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 410447927086444545, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": [
+                {
+                    "url": "http://t.co/TR1mVIrWFC", 
+                    "indices": [
+                        113, 
+                        135
+                    ], 
+                    "expanded_url": "http://fb.me/6tROQXhxH", 
+                    "display_url": "fb.me/6tROQXhxH"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "410447927086444545", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Tue Dec 10 16:36:26 +0000 2013", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "And it's out on itunes!!!\nhttps://t.co/zkhrxFreVg http://t.co/RqPK9srP6D", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 572756857347051520, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": [
+                {
+                    "url": "https://t.co/zkhrxFreVg", 
+                    "indices": [
+                        26, 
+                        49
+                    ], 
+                    "expanded_url": "https://itunes.apple.com/dk/album/land-of-the-blind/id972673505", 
+                    "display_url": "itunes.apple.com/dk/album/land-\u2026"
+                }, 
+                {
+                    "url": "http://t.co/RqPK9srP6D", 
+                    "indices": [
+                        50, 
+                        72
+                    ], 
+                    "expanded_url": "http://fb.me/1LPH5TbCg", 
+                    "display_url": "fb.me/1LPH5TbCg"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "572756857347051520", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Tue Mar 03 13:54:10 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "And it's on spotify :-)\nhttps://t.co/vtK7s2M9yC http://t.co/LOXw7Zm3D6", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 575202505996517377, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": [
+                {
+                    "url": "https://t.co/vtK7s2M9yC", 
+                    "indices": [
+                        24, 
+                        47
+                    ], 
+                    "expanded_url": "https://play.spotify.com/album/20wsfY5yXzhPWMsGAdq55k", 
+                    "display_url": "play.spotify.com/album/20wsfY5y\u2026"
+                }, 
+                {
+                    "url": "http://t.co/LOXw7Zm3D6", 
+                    "indices": [
+                        48, 
+                        70
+                    ], 
+                    "expanded_url": "http://fb.me/7a7t1wCan", 
+                    "display_url": "fb.me/7a7t1wCan"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "575202505996517377", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Tue Mar 10 07:52:18 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "Our latest single, Breathing, is featured in the official BMX - Finals 2014 video. Check it out!! http://t.co/VuBQO7QJUq", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 478987740051419137, 
+        "favorite_count": 1, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": [
+                {
+                    "url": "http://t.co/VuBQO7QJUq", 
+                    "indices": [
+                        98, 
+                        120
+                    ], 
+                    "expanded_url": "http://fb.me/6CaqYne5X", 
+                    "display_url": "fb.me/6CaqYne5X"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "478987740051419137", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Tue Jun 17 19:49:11 +0000 2014", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "Cake my dyingDay! #mydyingday #rock #cph http://t.co/4D0lSMcaLY", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 472903887574532096, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>", 
+        "retweeted": true, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [
+                {
+                    "indices": [
+                        18, 
+                        29
+                    ], 
+                    "text": "mydyingday"
+                }, 
+                {
+                    "indices": [
+                        30, 
+                        35
+                    ], 
+                    "text": "rock"
+                }, 
+                {
+                    "indices": [
+                        36, 
+                        40
+                    ], 
+                    "text": "cph"
+                }
+            ], 
+            "urls": [], 
+            "media": [
+                {
+                    "expanded_url": "http://twitter.com/mydyingDayRocks/status/472903887574532096/photo/1", 
+                    "display_url": "pic.twitter.com/4D0lSMcaLY", 
+                    "url": "http://t.co/4D0lSMcaLY", 
+                    "media_url_https": "https://pbs.twimg.com/media/BpAXlGRIcAAlHWA.jpg", 
+                    "id_str": "472903886978969600", 
+                    "sizes": {
+                        "small": {
+                            "h": 253, 
+                            "resize": "fit", 
+                            "w": 340
+                        }, 
+                        "large": {
+                            "h": 764, 
+                            "resize": "fit", 
+                            "w": 1024
+                        }, 
+                        "medium": {
+                            "h": 448, 
+                            "resize": "fit", 
+                            "w": 600
+                        }, 
+                        "thumb": {
+                            "h": 150, 
+                            "resize": "crop", 
+                            "w": 150
+                        }
+                    }, 
+                    "indices": [
+                        41, 
+                        63
+                    ], 
+                    "type": "photo", 
+                    "id": 472903886978969600, 
+                    "media_url": "http://pbs.twimg.com/media/BpAXlGRIcAAlHWA.jpg"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "472903887574532096", 
+        "retweet_count": 2, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Sun Jun 01 00:54:07 +0000 2014", 
+        "in_reply_to_status_id_str": null, 
+        "place": null, 
+        "extended_entities": {
+            "media": [
+                {
+                    "expanded_url": "http://twitter.com/mydyingDayRocks/status/472903887574532096/photo/1", 
+                    "display_url": "pic.twitter.com/4D0lSMcaLY", 
+                    "url": "http://t.co/4D0lSMcaLY", 
+                    "media_url_https": "https://pbs.twimg.com/media/BpAXlGRIcAAlHWA.jpg", 
+                    "id_str": "472903886978969600", 
+                    "sizes": {
+                        "small": {
+                            "h": 253, 
+                            "resize": "fit", 
+                            "w": 340
+                        }, 
+                        "large": {
+                            "h": 764, 
+                            "resize": "fit", 
+                            "w": 1024
+                        }, 
+                        "medium": {
+                            "h": 448, 
+                            "resize": "fit", 
+                            "w": 600
+                        }, 
+                        "thumb": {
+                            "h": 150, 
+                            "resize": "crop", 
+                            "w": 150
+                        }
+                    }, 
+                    "indices": [
+                        41, 
+                        63
+                    ], 
+                    "type": "photo", 
+                    "id": 472903886978969600, 
+                    "media_url": "http://pbs.twimg.com/media/BpAXlGRIcAAlHWA.jpg"
+                }
+            ]
+        }
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "From tomorrow our debut album will be available on iTunes, spotify, wimp and a lot of other places!\nHope u guys like it - rock on!!!", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 572145849494601728, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": []
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "572145849494601728", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "created_at": "Sun Mar 01 21:26:15 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "HEADS UP PEOPLE!!!!\n\nWe are very proud to announce that on the 2nd of Marts 2015\nWe will release our debut album!... http://t.co/4Ob537qzxL", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 553604815637708802, 
+        "favorite_count": 0, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": [
+                {
+                    "url": "http://t.co/4Ob537qzxL", 
+                    "indices": [
+                        117, 
+                        139
+                    ], 
+                    "expanded_url": "http://fb.me/3t2bayUDx", 
+                    "display_url": "fb.me/3t2bayUDx"
+                }
+            ]
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "553604815637708802", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "possibly_sensitive": false, 
+        "lang": "en", 
+        "created_at": "Fri Jan 09 17:30:48 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }, 
+    {
+        "contributors": null, 
+        "truncated": false, 
+        "text": "Our debut album is a little delayed out there in the digital cloud. Should be out there in 3-4 days. Stay tuned!!!!", 
+        "is_quote_status": false, 
+        "in_reply_to_status_id": null, 
+        "id": 572715475261624320, 
+        "favorite_count": 1, 
+        "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>", 
+        "retweeted": false, 
+        "coordinates": null, 
+        "entities": {
+            "symbols": [], 
+            "user_mentions": [], 
+            "hashtags": [], 
+            "urls": []
+        }, 
+        "in_reply_to_screen_name": null, 
+        "id_str": "572715475261624320", 
+        "retweet_count": 0, 
+        "in_reply_to_user_id": null, 
+        "favorited": false, 
+        "user": {
+            "follow_request_sent": false, 
+            "has_extended_profile": false, 
+            "profile_use_background_image": true, 
+            "default_profile_image": false, 
+            "id": 184042952, 
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "verified": false, 
+            "profile_text_color": "333333", 
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "profile_sidebar_fill_color": "EFEFEF", 
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/AaaoGyJMhL", 
+                            "indices": [
+                                0, 
+                                22
+                            ], 
+                            "expanded_url": "http://mydyingdayrocks.com/", 
+                            "display_url": "mydyingdayrocks.com"
+                        }
+                    ]
+                }, 
+                "description": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/qHWgJPyZ", 
+                            "indices": [
+                                117, 
+                                137
+                            ], 
+                            "expanded_url": "http://www.facebook.com/mydyingdaymusic", 
+                            "display_url": "facebook.com/mydyingdaymusic"
+                        }, 
+                        {
+                            "url": "http://t.co/T78CHrI0", 
+                            "indices": [
+                                139, 
+                                159
+                            ], 
+                            "expanded_url": "http://www.reverbnation.com/mydyingday", 
+                            "display_url": "reverbnation.com/mydyingday"
+                        }
+                    ]
+                }
+            }, 
+            "followers_count": 4998, 
+            "profile_sidebar_border_color": "EEEEEE", 
+            "id_str": "184042952", 
+            "profile_background_color": "131516", 
+            "listed_count": 68, 
+            "is_translation_enabled": false, 
+            "utc_offset": 7200, 
+            "statuses_count": 315, 
+            "description": "We are a rock band! With metal bones! We released 1 song each & every month in 2012! Check 'em all out! Let's party! http://t.co/qHWgJPyZ\r\nhttp://t.co/T78CHrI0", 
+            "friends_count": 5369, 
+            "location": "Copenhagen, DK", 
+            "profile_link_color": "666666", 
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2590367739/rhhqtzqig9vh25wx4yma_normal.jpeg", 
+            "following": true, 
+            "geo_enabled": false, 
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/184042952/1353682697", 
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif", 
+            "screen_name": "mydyingDayRocks", 
+            "lang": "en", 
+            "profile_background_tile": true, 
+            "favourites_count": 2, 
+            "name": "my dyingDay", 
+            "notifications": false, 
+            "url": "http://t.co/AaaoGyJMhL", 
+            "created_at": "Sat Aug 28 15:02:07 +0000 2010", 
+            "contributors_enabled": false, 
+            "time_zone": "Athens", 
+            "protected": false, 
+            "default_profile": false, 
+            "is_translator": false
+        }, 
+        "geo": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "created_at": "Tue Mar 03 11:09:44 +0000 2015", 
+        "in_reply_to_status_id_str": null, 
+        "place": null
+    }
+]
