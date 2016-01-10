@@ -1,27 +1,29 @@
 // var staticDomain = "http://static.mydyingdayrocks.com";
 var staticDomain = '';
 
-(function() {
+
+
+(function(window, document, $) {
 
     $('#header').sticky({
         topSpacing: 0
     });
 
-    jQuery(window).scroll(function() {
-        if (jQuery(window).width() > 640) {
-            if (jQuery(window).scrollTop() > jQuery(window).height() - 200) {} else {}
+    $(window).scroll(function() {
+        if ($(window).width() > 640) {
+            if ($(window).scrollTop() > $(window).height() - 200) {} else {}
         }
     });
 
     var page_nav = '';
-    jQuery('a').click(function() {
-        page_nav = jQuery(this).attr('href');
+    $('a').click(function() {
+        page_nav = $(this).attr('href');
         if (page_nav.search('#') >= 0 && page_nav.length > 2 && page_nav !== '#myCarousel') {
-            jQuery('html,body').animate({
-                'scrollTop': jQuery('' + page_nav).offset().top - 40
+            $('html,body').animate({
+                'scrollTop': $('' + page_nav).offset().top - 40
             }, 600);
-            if (jQuery('html').hasClass('lt-ie9')) {
-                jQuery('body').hasClass('no-history');
+            if ($('html').hasClass('lt-ie9')) {
+                $('body').hasClass('no-history');
             } else {
                 window.history.pushState(', ', page_nav);
             }
@@ -34,15 +36,15 @@ var staticDomain = '';
         page_scroll_li = '';
 
     function page_scroll_section() {
-        page_scroll_window_scrolltop = jQuery(window).scrollTop();
-        jQuery('#site-nav a').each(function() {
-            page_scroll_link = jQuery(this);
-            page_scroll_li = jQuery(this).parent();
-            page_scroll_panel = jQuery(this).attr('href');
+        page_scroll_window_scrolltop = $(window).scrollTop();
+        $('#site-nav a').each(function() {
+            page_scroll_link = $(this);
+            page_scroll_li = $(this).parent();
+            page_scroll_panel = $(this).attr('href');
             page_scroll_panel = page_scroll_panel.replace('#', '');
-            jQuery('.xpanel').each(function() {
-                if (page_scroll_window_scrolltop > (jQuery(this).offset().top - 200) && page_scroll_window_scrolltop < (jQuery(this).offset().top + jQuery(this).outerHeight())) {
-                    if (jQuery(this).attr('id') === page_scroll_panel) {
+            $('.xpanel').each(function() {
+                if (page_scroll_window_scrolltop > ($(this).offset().top - 200) && page_scroll_window_scrolltop < ($(this).offset().top + $(this).outerHeight())) {
+                    if ($(this).attr('id') === page_scroll_panel) {
                         page_scroll_li.addClass('active');
                     } else {
                         page_scroll_li.removeClass('active');
@@ -51,20 +53,20 @@ var staticDomain = '';
             });
         });
     }
-    jQuery(window).resize(function() {
+    $(window).resize(function() {
         page_scroll_section();
     });
-    jQuery(window).scroll(function() {
+    $(window).scroll(function() {
         page_scroll_section();
     });
 
-    jQuery(window).load(function() {
+    $(window).load(function() {
         var web_address = location.href;
         if (web_address.search('#') > 0) {
             web_address = web_address.split('#');
             page_nav = web_address[1];
-            jQuery('html,body').animate({
-                'scrollTop': jQuery('#' + page_nav).offset().top - 60
+            $('html,body').animate({
+                'scrollTop': $('#' + page_nav).offset().top - 60
             }, 600);
         }
     });
@@ -246,8 +248,7 @@ var staticDomain = '';
         }
     }
 
-
-})(jQuery);
+})(window, document, window.jQuery);
 
 
 function OpenAlbum(strAlbum, strTrack) {
@@ -414,6 +415,4 @@ function playVideo(idVid, title) {
     $('#videoplayer').html('<div style="padding:100px;text-align:center;font-size:20px;">Loading video ...</div>');
     var s = '<div style="background-color:rgba(0, 0, 0, 0.5);;border-top:1px solid #FFF"><div class="container"><div class="pull-left" style="width:80%; overflow:hidden;"><h3><span class="glyphicon glyphicon-expand" ></span> Video: ' + title + '</h3></div><div class="pull-right"><span class="close" onclick="$(\'#videoplayer\').html(\'\');" style="font-size: 51px;font-weight: bold;line-height: 1;color: #FFF;text-shadow: 0 1px 0 #fff;opacity: .9;filter: alpha(opacity=90);">&times;</span></div></div></div><div style="border-bottom:1px solid #FFF;padding-bottom:20px;margin-bottom:15px;background-color:rgba(0, 0, 0, 0.5);"><div class="videoembed"><div class="videowrapper"><div class="videocontainer"><iframe class="videoembedx youtube" src="//www.youtube.com/embed/' + idVid + '" frameborder="0" allowfullscreen=""></iframe></div></div></div></div>';
     $('#videoplayer').html(s);
-
-
 }
