@@ -87,7 +87,7 @@ var staticDomain = '';
     $.ajaxSetup({
         cache: true
     });
-    $.getJSON('/json/tweets.json',
+    $.getJSON('/json/tweets_selected.json',
         function(feeds) {
             var feedHTML = '',
                 feedIndex = '',
