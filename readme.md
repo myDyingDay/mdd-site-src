@@ -1,6 +1,8 @@
 my dyingDay
 ===
 
+_testing git2go_
+
 This is the source code for `my dyingDay`'s website, http://mydyingdayrocks.com.
 
 It is build locally with Grunt & Jekyll, and deployed to `mydyingday.github.io`
